@@ -1,0 +1,66 @@
+tpmain.c                %TPDEMO%
+
+TP_Constract.c          %TPDEMO%\examples
+TP_DemoListBox.c        %TPDEMO%\examples
+TP_DemoMenu.c           %TPDEMO%\examples
+TP_DialogTest.c         %TPDEMO%\examples
+TP_FileTest.c           %TPDEMO%\examples
+TP_UpgradeTest.c        %TPDEMO%\examples
+TP_IdleScreen.c         %TPDEMO%\examples
+TP_InputTest.c          %TPDEMO%\examples
+TP_KeyPadTest.c         %TPDEMO%\examples
+TP_MainMenu.c           %TPDEMO%\examples
+TP_Phone.c              %TPDEMO%\examples
+TP_PrintTest.c          %TPDEMO%\examples
+TP_RingTest.c           %TPDEMO%\examples
+TP_SerialTest.c         %TPDEMO%\examples
+TP_StartPic.c           %TPDEMO%\examples
+TP_TcpipTest.c          %TPDEMO%\examples
+TP_TimeSet.c            %TPDEMO%\examples
+TP_USSD.c               %TPDEMO%\examples
+TP_SimCard.c            %TPDEMO%\examples
+TP_SerialDataProc.c		%TPDEMO%\examples
+TP_BarCode.c            %TPDEMO%\examples
+TP_CardReaderTest.c     %TPDEMO%\examples
+TP_NetworkStatus.c      %TPDEMO%\examples
+TP_SSTest.c             %TPDEMO%\examples
+TP_FotaTest.c           %TPDEMO%\examples
+TP_HttpDemo.c           %TPDEMO%\examples
+tp_demo_flashparam.c    %TPDEMO%\examples
+TP_ArabicTest.c         %TPDEMO%\examples
+TP_MifareOneTest.c         %TPDEMO%\examples
+
+#参数管理器模块
+TP_Public.c             %TPDEMO%\examples\ParamsManager
+TP_ParamsAnalyser.c     %TPDEMO%\examples\ParamsManager
+TP_ParamsBackUp.c       %TPDEMO%\examples\ParamsManager
+TP_ParamsItemInit.c     %TPDEMO%\examples\ParamsManager
+TP_ParamsManager.c      %TPDEMO%\examples\ParamsManager
+TPList.c                %TPDEMO%\examples\ParamsManager
+
+#短信箱模块
+TP_SMSStore.c           %TPDEMO%\examples\Message
+TP_MSGMenu.c            %TPDEMO%\examples\Message
+TP_ExitToIdleScr.c      %TPDEMO%\examples\Message
+#通话记录模块
+TP_CallRecord.c         %TPDEMO%\examples\CallRecord
+#资源文件
+TP_ResourceMM.c         %TPDEMO%\examples\TPResourceMM
+#显示接口
+TP_ListBox.c            %TPDEMO%\examples\Display
+TP_DisplayAPI.c         %TPDEMO%\examples\Display
+#话机参数设置
+TP_PhoneSetting.c		%TPDEMO%\examples\PhoneSetting	
+#暗码解析
+TP_SecretCode.c			%TPDEMO%\examples\SecretCode
+
+#远程升级公共模块
+tb_upgrade_http.c       %TPDEMO%\examples\tb_upgrade\src
+tb_upgrade_display.c    %TPDEMO%\examples\tb_upgrade\src
+tb_upgrade_comm.c       %TPDEMO%\examples\tb_upgrade\src
+tb_upgrade_mgr.c        %TPDEMO%\examples\tb_upgrade\src
+
+#STK应用公共模块
+tb_stk_mgr.c  %TPDEMO%\examples\tb_stk\src
+
+TP_DispTest.c           %TPDEMO%\examples\DispTest

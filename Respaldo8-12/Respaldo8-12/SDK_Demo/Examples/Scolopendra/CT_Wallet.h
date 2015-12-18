@@ -1,0 +1,29 @@
+#ifndef CT_WALLET
+#define CT_WALLET
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+typedef enum WALLET_STEP_TAG
+{
+	WALLET_INIT,
+	WALLET_ADD_SUSC_NUMBER,
+	WALLET_ADD_AMOUNT,
+	WALLET_START_COMM,
+	WALLET_ADD_PIN,
+	WALLET_CONFIRM_TO_CRYPTO,
+	WALLET_REGISTER,
+	WALLET_PRINT,
+	WALLET_FAIL,
+	WALLET_SUCCESS,
+	WALLET_CONFIRM_FAIL,	
+	WALLET_EXIT
+}WALLET_STEP;
+
+void CT_Wallet();
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif
