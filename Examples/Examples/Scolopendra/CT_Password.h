@@ -1,0 +1,27 @@
+#ifndef CT_PASSWORD
+#define CT_PASSWORD
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+typedef enum PASSWORD_STEP_TAG
+{
+	PASSWORD_INIT,
+	PASSWORD_ENTER_USERNAME,
+	PASSWORD_ENTER_CURRENT_PASSWORD,
+	PASSWORD_ENTER_NEW_PASSWORD,
+	PASSWORD_CONFIRM_NEW_PASSWORD,
+	PASSWORD_START_COMM,	
+	PASSWORD_FAIL,
+	PASSWORD_SUCCEED,
+	PASSWORD_EXIT,
+	
+}PASSWORD_STEP;
+
+void CT_Password(void);
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif

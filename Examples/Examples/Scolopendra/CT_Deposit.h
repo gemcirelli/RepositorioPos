@@ -1,0 +1,30 @@
+#ifndef CT_DEPOSIT
+#define CT_DEPOSIT
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+typedef enum DEPOSIT_STEP_TAG
+{
+	DEPOSIT_INIT,
+	DEPOSIT_SELECT_BANK,
+	DEPOSIT_CONTROL_NUMBER,
+	DEPOSIT_ADD_AMOUNT,
+	DEPOSIT_ADD_DATE,
+	DEPOSIT_CONFIRMATION,
+	DEPOSIT_START_COMM,
+	DEPOSIT_PRINT_PROMPT,
+	DEPOSIT_PRINT,
+	DEPOSIT_FAIL,
+	DEPOSIT_SUCCESS,
+	DEPOSIT_EXIT
+	
+}DEPOSIT_STEP;
+
+void CT_Deposit();
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif
